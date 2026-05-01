@@ -3,7 +3,7 @@ export default function Footer() {
     <footer style={styles.footer}>
       <div style={styles.inner}>
         <div style={styles.top}>
-          <span style={styles.brand}>CodeLeaf</span>
+          <span style={styles.brand}>Credo.intl</span>
           {/* <span style={styles.tagline}>Software Solutions & Development</span> */}
         </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
 
         <div style={styles.copy}>
-          © {new Date().getFullYear()} CodeLeaf. All rights reserved.
+          © {new Date().getFullYear()} Credo.intl. All rights reserved.
         </div>
       </div>
     </footer>
