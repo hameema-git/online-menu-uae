@@ -367,7 +367,7 @@ export default function Admin() {
                         />
 
                         <label style={styles.label}>Price</label>
-                        <input
+                        {/* <input
                           style={styles.input}
                           type="number"
                           step="0.01"
@@ -377,7 +377,21 @@ export default function Admin() {
                             c[i].items[j].price = Number(e.target.value);
                             setMenu({ ...menu, categories: c });
                           }}
-                        />
+                        /> */}
+
+                        <input
+  style={styles.input}
+  type="number"
+  step="any"   // ✅ IMPORTANT (not 0.01)
+  value={item.price}
+  onChange={e => {
+    const c = [...menu.categories];
+
+    c[i].items[j].price = e.target.value; // ✅ EXACT value, no conversion
+
+    setMenu({ ...menu, categories: c });
+  }}
+/>
 
                         <label style={styles.label}>Quantity / Weight</label>
                         <input
