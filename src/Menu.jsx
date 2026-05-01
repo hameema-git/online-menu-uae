@@ -195,7 +195,7 @@ export default function Menu() {
                           <div style={{ flex: 1 }}>
                             <div style={styles.row}>
                               <strong>{item.name}</strong>
-                              <strong>₹{item.price}</strong>
+                              <strong>AED{item.price}</strong>
                             </div>
 
                             {item.quantity && (
