@@ -381,7 +381,9 @@ export default function Admin() {
 
                         <input
   style={styles.input}
-  type="number"
+  // type="number"
+
+  type="text"
   step="any"   // ✅ IMPORTANT (not 0.01)
   value={item.price}
   onChange={e => {
