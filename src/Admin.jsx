@@ -370,6 +370,7 @@ export default function Admin() {
                         <input
                           style={styles.input}
                           type="number"
+                          step="0.01"
                           value={item.price}
                           onChange={e => {
                             const c = [...menu.categories];
