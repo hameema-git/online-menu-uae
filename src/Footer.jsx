@@ -6,7 +6,7 @@ export default function Footer() {
           <span style={styles.brand}>Credo.intl</span>
           {/* <span style={styles.tagline}>Software Solutions & Development</span> */}
         </div>
-
+{/* 
         <div style={styles.links}>
           <a
             href="https://codeleaf.co.in"
@@ -27,7 +27,7 @@ export default function Footer() {
           >
             WhatsApp
           </a>
-        </div>
+        </div> */}
 
         <div style={styles.copy}>
           © {new Date().getFullYear()} Credo.intl. All rights reserved.
